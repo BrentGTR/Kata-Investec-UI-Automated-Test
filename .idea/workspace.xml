@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dd8e72d-0c8f-4bc8-a5fa-758fff7dbaab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/investec/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/LoggingWebDriverEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/WebDriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/src/main/java/page/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/src/main/java/page/investec/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/src/main/java/util/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/src/main/java/util/LoggingWebDriverEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/src/main/java/util/WebDriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kata-Investec-UI-Automated-Test/src/main/java/util/WebDriverUtils.java" beforeDir="false" />
+    </list>
+    <list id="44625365-482c-4bf0-be9f-cd33cce87d43" name="iml changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.41\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1guWq0MNHiNFSXsB6mZ1gVrYTQm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="page" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brent.singh\Documents\Automation Codebase\Kata-Investec-UI-Automated-Test\Kata-Investec-UI-Automated-Test" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dd8e72d-0c8f-4bc8-a5fa-758fff7dbaab" name="Default Changelist" comment="" />
+      <changelist id="44625365-482c-4bf0-be9f-cd33cce87d43" name="iml changelist" comment="" />
+      <created>1598965146799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598965146799</updated>
+    </task>
+    <task id="LOCAL-00001" summary="chore: added gitignore">
+      <created>1598968358570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968358570</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: added WebDriverFactory and utils">
+      <created>1598968428358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968428358</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: added Page class">
+      <created>1598968523461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968523461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: added Investec home page class">
+      <created>1598968567539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968567539</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor: updated pom file">
+      <created>1598968706392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968706392</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: moved README.md">
+      <created>1598968802682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968802682</updated>
+    </task>
+    <task id="LOCAL-00007" summary="chore: updated gitignore with .idea folder">
+      <created>1598969037855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598969037855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="chore: added gitignore" />
+    <MESSAGE value="feat: added WebDriverFactory and utils" />
+    <MESSAGE value="feat: added Page class" />
+    <MESSAGE value="feat: added Investec home page class" />
+    <MESSAGE value="refactor: updated pom file" />
+    <MESSAGE value="chore: moved README.md" />
+    <MESSAGE value="chore: updated gitignore with .idea folder" />
+    <MESSAGE value="refactor: moved files up one level" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: moved files up one level" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1598966593820">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/-1366.304.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1598966593820" />
+    <state x="-953" y="321" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598965668125">
+      <screen x="-1366" y="304" width="1366" height="738" />
+    </state>
+    <state x="-953" y="321" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1366.304.1366.738/0.0.1920.1050@-1366.304.1366.738" timestamp="1598965668125" />
+    <state x="725" y="380" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598967007067">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="725" y="380" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1366.304.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1598967007067" />
+    <state x="-1306" y="304" key="CommitChangelistDialog2" timestamp="1599124464505">
+      <screen x="-1366" y="304" width="1366" height="738" />
+    </state>
+    <state x="-1306" y="304" key="CommitChangelistDialog2/-1366.304.1366.738/0.0.1920.1050@-1366.304.1366.738" timestamp="1599124464505" />
+    <state x="84" y="0" key="CommitChangelistDialog2/-1366.304.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1599004148074" />
+    <state x="299" y="34" key="Maven.ArtifactSearchDialog" timestamp="1598966488536">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1153" y="328" key="Maven.ArtifactSearchDialog/-1366.304.1366.738/0.0.1920.1050@-1366.304.1366.738" timestamp="1598966194548" />
+    <state x="299" y="34" key="Maven.ArtifactSearchDialog/-1366.304.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1598966488536" />
+    <state x="-1182" y="318" key="SettingsEditor" timestamp="1599123695508">
+      <screen x="-1366" y="304" width="1366" height="738" />
+    </state>
+    <state x="-1182" y="318" key="SettingsEditor/-1366.304.1366.738/0.0.1920.1050@-1366.304.1366.738" timestamp="1599123695508" />
+    <state x="557" y="406" key="VCS.ChangelistChooser" timestamp="1598969108225">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="557" y="406" key="VCS.ChangelistChooser/-1366.304.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1598969108225" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1598969243959">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/-1366.304.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1598969243959" />
+    <state x="777" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598969229204">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="777" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.304.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1598969229204" />
+  </component>
+</project>

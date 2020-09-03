@@ -14,6 +14,9 @@ public class HomePage extends Page {
 
     // The element is looked up using the name attribute
     @FindBy(id = "toggler-hamburger") private WebElement hamburgerMenu;
+    @FindBy(id = "search-toggler__search") private WebElement searchToggler;
+    @FindBy(id = "searchBarInput") private WebElement searchBarInput;
+    @FindBy(id = "searchBarButton") private WebElement searchBarButton;
 
     /**
      * Constructor injecting the WebDriver interface
@@ -24,6 +27,15 @@ public class HomePage extends Page {
         super(webDriver);
     }
 
+    private void launchInvestecOnline(){
+        this.webDriver.get("https://www.investec.com/");
+    }
+
+    private void searchForInterestRates(){
+        searchToggler.click();
+        searchBarInput.sendKeys("Interest Rates");
+        searchBarButton.click();
+    }
 
 
 }
