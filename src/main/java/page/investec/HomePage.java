@@ -1,39 +1,36 @@
 package page.investec;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import page.Page;
+import page.parentpage.Page;
 
 /**
- * Google search page
+ * Investec home page
  */
 public class HomePage extends Page {
 
-    // The element is looked up using the name attribute
-    @FindBy(id = "toggler-hamburger") private WebElement hamburgerMenu;
-    @FindBy(id = "search-toggler__search") private WebElement searchToggler;
-    @FindBy(id = "searchBarInput") private WebElement searchBarInput;
+//    @FindBy(id = "toggler-hamburger") private WebElement hamburgerMenu;
+    @FindBy(xpath = "//div[contains(@id,'search-toggle')]") private WebElement searchToggler;
+    @FindBy(xpath = "//input[contains(@id,'searchBarInput')]") private WebElement searchBarInput;
     @FindBy(id = "searchBarButton") private WebElement searchBarButton;
 
     /**
      * Constructor injecting the WebDriver interface
      *
-     * @param webDriver
+     * @param driver
      */
-    public HomePage(WebDriver webDriver) {
-        super(webDriver);
+    public HomePage(WebDriver driver) {super(driver);}
+
+    public HomePage launchInvestecOnline(){
+        this.getDriver().get("https://www.investec.com/");
+        return this;
     }
 
-    private void launchInvestecOnline(){
-        this.webDriver.get("https://www.investec.com/");
-    }
-
-    private void searchForInterestRates(){
+    public void searchForInterestRates(){
+        ngFinish();
         searchToggler.click();
-        searchBarInput.sendKeys("Interest Rates");
+        searchBarInput.sendKeys("Understanding cash investment interest rates");
         searchBarButton.click();
     }
 
