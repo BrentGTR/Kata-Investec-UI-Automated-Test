@@ -30,6 +30,7 @@ public class HomePage extends Page {
     public void searchForInterestRates(){
         ngFinish();
         searchToggler.click();
+        waitForVisibilityOfNonStaleElement(searchBarInput);
         searchBarInput.sendKeys("Understanding cash investment interest rates");
         searchBarButton.click();
     }
