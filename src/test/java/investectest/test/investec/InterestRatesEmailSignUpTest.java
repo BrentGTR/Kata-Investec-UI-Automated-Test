@@ -15,13 +15,11 @@ import page.parentpage.Page;
 import java.io.IOException;
 
 public class InterestRatesEmailSignUpTest extends TestBase {
-//    private static final Logger logger = LoggerFactory.getLogger(InterestRatesEmailSignUpTest.class);
 
     @BeforeMethod
-    @Parameters({"environment"})
-    public void setUp(@Optional String env) throws Exception {
+    public void setUp() throws Exception {
         System.out.println("setUp");
-        seleniumTestInitialization(env);
+        seleniumTestInitialization();
         page = new Page(driver);
     }
 
@@ -40,7 +38,7 @@ public class InterestRatesEmailSignUpTest extends TestBase {
                 .clickUnderstandingCashInvestmentInterestRatesLink();
 
         interestRatePage
-                .signUpForInterestRatesEmail("Matthew", "Murdock", "mm@MurdockNelsonPage.net")
+                .signUpForInterestRatesEmail("Matthew", "Murdock", "test@investec.co.za")
                 .confirmEmailSignUp();
         Reporter.log("Email sign-up was successful");
     }

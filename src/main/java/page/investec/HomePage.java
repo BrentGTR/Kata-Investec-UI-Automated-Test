@@ -31,7 +31,7 @@ public class HomePage extends Page {
         ngFinish();
         searchToggler.click();
         waitForVisibilityOfNonStaleElement(searchBarInput);
-        searchBarInput.sendKeys("Understanding cash investment interest rates");
+        searchBarInput.sendKeys("If you have excess cash in your business that you don’t need immediate access to");
         searchBarButton.click();
     }
 

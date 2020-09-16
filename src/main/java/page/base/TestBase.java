@@ -3,14 +3,12 @@ package page.base;
 import com.google.common.base.CaseFormat;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
 import page.parentpage.Page;
 import util.WebDriverFactory;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.net.MalformedURLException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -20,10 +18,6 @@ public class TestBase {
     public Page page;
 
     public static long PAGE_LOAD_TIMEOUT = 180;
-
-    public   String min;
-    public   String max;
-
 
     public static  ThreadLocal<WebDriver> dr = new ThreadLocal<WebDriver>();
 
@@ -37,11 +31,10 @@ public class TestBase {
         }
     }
 
-    public void seleniumTestInitialization(@Optional String env) throws IOException {
+    public void seleniumTestInitialization() {
         webDriverInitialization();
-        environmentUrlInitialization(env);
+        environmentUrlInitialization();
     }
-
 
     public void webDriverInitialization(){
         try{
@@ -60,16 +53,9 @@ public class TestBase {
         setScriptTimeout(300);
     }
 
-    public void environmentUrlInitialization(String env) {
-        try{
-            prop.setProperty("environment", env);
-        }catch(NullPointerException e){
-            System.out.println("No environment set in test, using environment from Properties file.");
-        }
-
+    public void environmentUrlInitialization() {
         page = new Page(getWebDriver());
     }
-
 
     @BeforeMethod
     public void displayCurrentTestName(Method method){
@@ -81,7 +67,6 @@ public class TestBase {
     public  void setScriptTimeout(int timeout) {
         getWebDriver().manage().timeouts().setScriptTimeout(timeout, TimeUnit.SECONDS);
     }
-
 
     public  WebDriver getWebDriver() {
         return dr.get();
